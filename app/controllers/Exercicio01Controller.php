@@ -10,7 +10,7 @@
         $data["view"] = "home";
         $this->load("exe01/index",$data);
       }
-
+            
       public function calcular(){
         $obj = new Exercicio01();
         $number = isset($_POST["num"]) ? $_POST["num"] : null;
