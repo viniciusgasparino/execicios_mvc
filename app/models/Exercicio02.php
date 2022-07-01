@@ -8,8 +8,8 @@
           $maior = 0;
           $menor = 0;
           if($number1 > $number2){
-              $maior = $number1;
-              return $maior;
+            $maior = $number1;
+            return $maior;
           }else{
             $menor = $number1;
             return $menor;
@@ -20,8 +20,8 @@
           $maior = 0;
           $menor = 0;
           if($number2 > $number1){
-              $maior = $number2;
-              return $maior;
+            $maior = $number2;
+            return $maior;
           }else{
             $menor = $number2;
             return $menor;
