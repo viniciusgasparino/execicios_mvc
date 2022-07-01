@@ -10,18 +10,19 @@
             $resultado = "os  3 números são iguais";
             return $resultado;
         }elseif($num1===$num2 && $num1!==$num3 && $num2!==$num3){
-            $resultado = "$num1 e $num2 são iguais";
-            return $resultado;
+            $resultado = "2 numeros são iguais";
+            return $resultado; 
         }elseif($num1!==$num2 && $num1===$num3 && $num2!==$num3){
-            $resultado = "$num1 e $num3 são iguais";
-            return $resultado;
+            $resultado = "2 numeros são iguais";
+            return $resultado; 
         }elseif($num1!==$num2 && $num1!==$num3 && $num2===$num3){
-            $resultado = "$num2 e $num3 são iguais";
+            $resultado = "2 numeros são iguais";
             return $resultado;
         }else{
-           $resultado = "os numeros são diferentes";
+            $resultado = "os numeros são diferentes";
             return $resultado;
         }
+          
       }
 
 
